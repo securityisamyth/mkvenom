@@ -40,7 +40,7 @@ Usage: mkvenom.sh <target-ip> <target-port> <local-ip> <local-port> [os]"
 
 For example, if the local penetration tester's system has an IP address of 192.168.10.200 and a remote Linux target system has an IP address of 10.20.20.1:
 
-`./mkvenom.sh 10.20.20.1 4444 192.168.10.200 443 linux`
+`/usr/local/bin/mkvenom.sh 10.20.20.1 4444 192.168.10.200 443 linux`
 
 In the above example, payloads which bind to an address on the target would use port 4444 whilst payloads which make reverse connections back to the local machine would use port 443.
 
